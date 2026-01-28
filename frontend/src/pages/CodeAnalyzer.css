@@ -1,0 +1,323 @@
+.analyzer-page {
+  padding: 2rem 0;
+}
+
+.analyzer-page h1 {
+  margin-bottom: 0.5rem;
+}
+
+/* Analyzer Container */
+.analyzer-container {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Input Section */
+.analyzer-input {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.analyzer-input h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.analyzer-form textarea {
+  min-height: 300px;
+  font-family: 'Courier New', Consolas, Monaco, monospace;
+  font-size: 0.95rem;
+}
+
+.loading-section {
+  margin-top: 2rem;
+}
+
+/* Analysis Results */
+.analyzer-results {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-result {
+  max-width: 100%;
+}
+
+.analysis-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.analysis-header h2 {
+  margin-bottom: 0;
+}
+
+.quality-badge {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Analysis Sections */
+.analysis-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.analysis-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.analysis-summary {
+  background: #f7fafc;
+}
+
+.analysis-summary p {
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.strengths {
+  background: #f0fdf4;
+  border-left: 4px solid #22c55e;
+}
+
+.strengths ul {
+  list-style-position: inside;
+  color: #166534;
+}
+
+.strengths li {
+  margin-bottom: 0.5rem;
+}
+
+/* Issues Section */
+.issues {
+  background: #fef2f2;
+  border-left: 4px solid #ef4444;
+}
+
+.issue-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-left: 4px solid #a0aec0;
+}
+
+.issue-card.critical {
+  border-left-color: #dc2626;
+}
+
+.issue-card.major {
+  border-left-color: #f59e0b;
+}
+
+.issue-card.minor {
+  border-left-color: #3b82f6;
+}
+
+.issue-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.issue-severity {
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.issue-card.critical .issue-severity {
+  background-color: #dc2626;
+}
+
+.issue-card.major .issue-severity {
+  background-color: #f59e0b;
+}
+
+.issue-card.minor .issue-severity {
+  background-color: #3b82f6;
+}
+
+.issue-type {
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.issue-description {
+  color: #4a5568;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.issue-line {
+  color: #718096;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Courier New', monospace;
+}
+
+.issue-suggestion {
+  color: #2d3748;
+  padding: 1rem;
+  background-color: #f7fafc;
+  border-radius: 6px;
+  line-height: 1.6;
+}
+
+/* Improvements Section */
+.improvements {
+  background: #eff6ff;
+  border-left: 4px solid #3b82f6;
+}
+
+.improvement-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.improvement-card h4 {
+  color: #3b82f6;
+  margin-bottom: 0.75rem;
+  text-transform: capitalize;
+}
+
+.improvement-card p {
+  color: #4a5568;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.code-example {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Courier New', Consolas, Monaco, monospace;
+  font-size: 0.875rem;
+}
+
+/* Best Practices Section */
+.best-practices {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+}
+
+.best-practices ul {
+  list-style-position: inside;
+  color: #78350f;
+}
+
+.best-practices li {
+  margin-bottom: 0.5rem;
+}
+
+/* Resources Section */
+.resources {
+  background: #f5f3ff;
+  border-left: 4px solid #8b5cf6;
+}
+
+.resource-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  color: #4a5568;
+}
+
+.resource-item strong {
+  color: #8b5cf6;
+}
+
+/* History Section */
+.history-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.history-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.history-card {
+  background: #f7fafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #667eea;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.history-header h3 {
+  font-size: 1.2rem;
+  color: #2d3748;
+  margin-bottom: 0;
+}
+
+.history-date {
+  color: #718096;
+  font-size: 0.875rem;
+}
+
+.history-code-preview {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', Consolas, Monaco, monospace;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .analysis-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .issue-header {
+    flex-direction: column;
+  }
+}
